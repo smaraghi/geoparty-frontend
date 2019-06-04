@@ -21,7 +21,7 @@ const GlobalState = props => {
 
   const fetchQuestions = () => {
     setLoading(true)
-    fetch('http://localhost:3000/questions/get_trivia')
+    fetch('https://geoparty-backend.herokuapp.com/questions/get_trivia')
     .then(res => res.json())
     .then(questions => {
       setQuestions(questions.results)
@@ -31,7 +31,7 @@ const GlobalState = props => {
   }
 
   const authenticatingUser = (username, password) => {
-    fetch('http://localhost:3000/login', {
+    fetch('https://geoparty-backend.herokuapp.com/login', {
       method: "POST",
       headers:{"Content-Type":"application/json", "Accept": "application/json"},
       body:JSON.stringify({
@@ -55,7 +55,7 @@ const GlobalState = props => {
   }
 
   const authenticatingToken = (token) => {
-    fetch('http://localhost:3000/verify_token', {
+    fetch('https://geoparty-backend.herokuapp.com/verify_token', {
       headers:{"Authentication": `Bearer ${token}`}
     })
     .then(res => res.json())
@@ -81,7 +81,7 @@ const GlobalState = props => {
     correct_answers = user.correct_answers + 1
     :
     correct_answers = user.correct_answers
-    fetch(`http://localhost:3000/users/${user.id}`, {
+    fetch(`https://geoparty-backend.herokuapp.com/users/${user.id}`, {
       method: 'PATCH',
       headers: {"Content-Type":"application/json", Accept:"application/json"},
       body: JSON.stringify({

@@ -6,7 +6,7 @@ const RobotImage = (props) => {
   const context = useContext(shopContext)
 
   const saveAvatar = (robot) => {
-    fetch(`http://localhost:3000/users/${context.user.id}`, {
+    fetch(`https://geoparty-backend.herokuapp.com/users/${context.user.id}`, {
       method: 'PATCH',
       headers: {"Content-Type":"application/json", Accept:"application/json"},
       body: JSON.stringify({

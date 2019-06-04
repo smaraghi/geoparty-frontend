@@ -11,7 +11,7 @@ const Content = (props) => {
 
     useEffect(() => {
       setLoading(true)
-      fetch(`http://localhost:3000/countries/${props.activeCountry}`)
+      fetch(`https://geoparty-backend.herokuapp.com/countries/${props.activeCountry}`)
       .then(res => res.json())
       .then(country => {
         setCountryData(country)

@@ -11,7 +11,7 @@ const CreateUser = () => {
   const context = useContext(shopContext)
 
   const handleSubmit = () => {
-    fetch('http://localhost:3000/users', {
+    fetch('https://geoparty-backend.herokuapp.com/users', {
       method: "POST",
       headers:{"Content-Type":"application/json", "Accept": "application/json"},
       body:JSON.stringify({
