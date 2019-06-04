@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# GeoParty 
 
-## Available Scripts
+### Have a blast learning Geography!
 
-In the project directory, you can run:
+#### What is GeoParty?
 
-### `npm start`
+Geoparty is a lightweight learning tool for users of all ages! Discover new and interesting facts about countries spanning the globe. Challenge yourself with an assortment of trivia questions and keep track of your progress. Compete with friends to answer the most correct questions and earn the greatest number of stars!
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### What is the Tech Stack?
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+This source code is broken up into two repositories. The backend is built as a Rails API and the frontend is built using the React library with the Context API for state management. 
 
-### `npm test`
+#### How to Run GeoParty?
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Fork or clone the backend at [geoparty-backend](https://github.com/smaraghi/geoparty-backend).
 
-### `npm run build`
+Run `bundle` in the backend directory. Set up the database by running `rails db:migrate` and `rails db:seed`. Finally, start the server by running `rails s`. 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Fork or clone the frontend at [geoparty-frontend](https://github.com/smaraghi/geoparty-frontend).
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Run `npm install` in the client directory and then start the client by running `npm start.` 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### License
 
-### `npm run eject`
+GeoParty is subject to the terms of the Mozilla Public License, v. 2.0.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+For more information on the MPL, please visit [Mozilla](http://mozilla.org/MPL/2.0/).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Authors
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Written by [Serven Maraghi](https://github.com/smaraghi/) and [Phil Hartley](https://github.com/philh725/).
