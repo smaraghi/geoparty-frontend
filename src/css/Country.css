@@ -1,0 +1,43 @@
+#country-header{
+  font-size: 40px;
+  text-align: center;
+}
+
+#country-summary{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#country-overview{
+  margin-top: 20px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#country-geography{
+  margin-top: 20px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#country-sidebar{
+  height: 1000px;
+  overflow-y: auto;
+}
+
+#country-sidebar-item{
+  margin-left: 15px;
+  cursor: pointer; 
+}
+
+#country-filter{
+  width: 100%;
+}
+
+#content-menu{
+  width: 500px;
+  margin: auto;
+}

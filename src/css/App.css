@@ -1,0 +1,90 @@
+.App{
+  font-family: 'Source Serif Pro', serif;
+  background-color: aliceblue;
+}
+
+.ui.header:first-child{
+  font-family: 'Source Serif Pro', serif;
+}
+
+.ui.button{
+  font-family: 'Source Serif Pro', serif;
+}
+
+#country-nav-{
+  font-family: 'Source Serif Pro', serif;
+}
+
+#trivia-nav{
+  font-family: 'Source Serif Pro', serif;
+}
+
+.ui.modal>.header {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.ui.items>.item>.content {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 16px;
+}
+
+#navbar-logo-login{
+  color: #6453c9;
+}
+
+#navbar-logo-logout{
+  color: #6453c9;
+}
+
+#home-container{
+  margin-top: 220px;
+}
+
+#home-blurb{
+  background-color: rgba(100,83,201, .6);
+  color: white; 
+  width: 60%;
+  font-size: 22px;
+  margin: auto;
+  z-index: +1;
+}
+
+#home-authors{
+  width: 80%;
+  margin: 75px auto 0px;
+}
+
+#home-map-container{
+  background-color: aliceblue;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#home-map{
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+}
+
+#home-link-container{
+  background-color: rgba(100,83,201, .6);
+  width: 30%;
+  margin: 50px auto;
+  z-index: +1;
+  text-align: center;
+} 
+
+#home-country-link{
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#home-trivia-link{
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+}
