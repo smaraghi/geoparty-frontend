@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Button, Grid } from 'semantic-ui-react'
+import { Button } from 'semantic-ui-react'
 import shopContext from '../../context/shop-context'
 
 const Options = () => {
